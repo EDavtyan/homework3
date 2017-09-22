@@ -8,7 +8,8 @@ const noInput = function() {
 };
 
 const LifePurpose = function(YourThoughts) {
-	YourThoughts = "Potato";
+	YourThoughts = "Potato.";
+	console.log(YourThoughts);
 };
 
 const fullName = function(firstName, lastName) {

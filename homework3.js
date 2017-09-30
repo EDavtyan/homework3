@@ -22,7 +22,7 @@ const LongerGuy = function(string1, string2) {
 	} else if string2.length > string1.length {
 		return string2;
 	} else {
-		return "I know nothing.";
+		return [string1, string2][Math.round(Math.random())];
 	}
 };
 
